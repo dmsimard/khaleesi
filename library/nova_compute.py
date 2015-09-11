@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #coding: utf-8 -*-
 
 # (c) 2013, Benno Joy <benno@ansible.com>
@@ -665,4 +665,3 @@ def main():
 from ansible.module_utils.basic import *
 from ansible.module_utils.openstack import *
 main()
-
